@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>简历生成器</title>
+    <title>王特-个人简历</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script> -->
     <script src="static/js/script.js"></script>
 </head>
 
@@ -16,42 +16,19 @@
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <div class="portrait"></div>
-                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
-                    <h3>请输入图片URL地址：</h3>
-                    <br/>
-                    <input type="text" id="avatar-url">
-                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-                </div>
-                <h1 id="username" >ekCit</h1>
-                <h4 id="persona-tag" >Python / Web / 互联网教育</h4>
-            </div>
-            <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
-                <hr>
-                <ul class="info-list">
-                    <li>
-                        <label class="left-label">姓名</label><span class="label-value">XXX</span></li>
-                    <li>
-                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
-                    <li>
-                        <label class="left-label">毕业院校</label><span class="label-value">北京邮电大学</span></li>
-                    <li>
-                        <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
-                </ul>
+                <img src="static/image/weixin.png">
+
+                <h1 id="username" >王特</h1>
+
             </div>
             <div class="contact info-unit">
                 <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">手机</label><span class="label-value">182XXXXXXXX</span></li>
+                        <label class="left-label">手机</label><span class="label-value">18602745654</span></li>
                     <li>
-                        <label class="left-label">邮箱</label><span class="label-value">crmrc2014@gmail.com</span></li>
-                    <li>
-                        <label class="left-label">个人主页</label><span class="label-value">exit-tixe.me</span></li>
-                    <li>
-                        <label class="left-label">Github</label><span class="label-value">github.com/ekCit</span></li>
+                        <label class="left-label">邮箱</label><span class="label-value">tewang@foxmail.com</span></li>
                 </ul>
             </div>
             <div class="skill info-unit">
@@ -59,53 +36,38 @@
                 <hr>
                 <ul class="progress-list">
                     <li>
-                        <label class="left-label">Python</label>
+                        <label class="left-label">Java</label>
                         <progress value="80" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">html/css</label>
-                        <progress value="70" max="100"></progress>
-                    </li>
-                    <li>
-                        <label class="left-label">Javascript</label>
+                        <label class="left-label">Python</label>
                         <progress value="60" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">机器学习</label>
+                        <label class="left-label">SQL</label>
                         <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Shell</label>
+                        <progress value="50" max="100"></progress>
                     </li>
                 </ul>
             </div>
             <div class="stack info-unit">
                 <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
                 <hr>
-                <ul class="stack-list">
-                    <li>
-                        <label class="left-label">前端</label><span class="label-value">jQuery、Angular.js、React.js</span></li>
-                    </li>
-                    <li>
-                        <label class="left-label">后端</label><span class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
-                    </li>
-                    <li>
-                        <label class="left-label">其它</label><span class="label-value">我全都是瞎写的。</span></li>
-                    </li>
-                </ul>
+                <p>Spark、Flink、Redis、MySQL、Netty、Kafka、Spring</p>
             </div>
 
             <div class="code info-unit">
                 <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
                 <hr>
                 <div class="weixin">
-                    <img src="static/image/weixin.png" alt="">
+                    <img src="static/image/QRcode.jpeg" alt="">
 
                 </div>
             </div>
-            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-            </div>
+           
         </div>
         <div class="main">
             <div class="education info-unit right-list">
@@ -113,89 +75,82 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京邮电大学 - 网络工程专业（本科）2012-2017</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
+                        <h3>英国南安普敦大学 - 数据科学 (MSc)   2018.9 - 2019.9</h3>
+                    </li>
+                    <li>
+                        <h3>武汉大学 - 通信工程专业 (本科)   2013.9 - 2017.6</h3>
                     </li>
                 </ul>
             </div>
             <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-work"></i> 
+                    <span class="info-title">实习经历</span>
+                </h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京创客空间－实习生（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>实验楼－课程内容（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <h3>杭州比智科技有限公司 - 大数据开发实习生 2018.3 - 2018.6</h3>
+                        <p>参与项目：&nbsp; 无人门店实时大屏</p>
+                        <p>主要职责：&nbsp; 实时指标需求的开发，项目维护</p>
+                        <p>项目内容：&nbsp; 从 Kafka 接收实时订单主表和订单子表数据，并从 MySQL 中获取商品类目，店铺商户等维表数据，使用 SparkStreaming 进行计算，并将结果保存到 MySQL。统计指标需求包括每小时各个门店和商户的实时销售额，当日各个商品、类目、店铺等的销售信息等等。
+                        存在的问题及解决：
+                        项目中需要将两个实时流的数据和维度表进行 Join，由于 SparkStreaming 不支持状态保存，解决方案不高效，后来选择使用 Flink 进行消费。
                         </p>
                     </li>
                 </ul class="experience-list">
             </div>
             <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-project">
+                </i> <span class="info-title">项目经历</span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>基于 Qt 5 的文本编辑器</h3>
+                        <h3>问答网站项目课程 2018.1 - 2018.2</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            主要使用 Spring Boot，MyBatis，MySQL，Redis 开发仿知乎的问答网站 完成的功能：用户注册登陆，发布问题，评论中心，站内信，粉丝关注，timeline 推送，异步消息处理等
                             <br/>
                         </p>
                     </li>
                     <li>
-                        <h3>基于 Flask 的主机监视系统</h3>
+                        <h3>云应用小组作业 2018.10 - 2018.11</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
+                            3个人的小组，使用 Flask + Angular 合作完成一个简单的云应用，部署在 Google App Engine 上。主要功能为：个人活动行程增删改查，团队活动行程增删改查
+                        </p>    
                     </li>
-                    <li>
-                        <h3>基于 Live2D 与 clmtrackr 的山寨 Facerig</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>如果项目太少，可以在实验楼上找项目做啊:D</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                    
                 </ul>
             </div>
             <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-project"></i> 
+                    <span class="info-title">其他信息</span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>小学生作文二等奖</h3>
+                        <h3>喜欢阅读框架源码，探究原理</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        阅读过高性能队列 Disruptor 源码，理解其核心原理与设计思想<br>
+                        阅读过 Hadoop RPC 源码，理解 RPC 原理，及高性能设计思想<br>
+                        阅读过 Netty 源码，了解其 Reactor 线程轮询事件，处理任务机制
                         </p>
+                            
                     </li> 
-                    <li>
-                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
-                    <li>
-                        <h3>这一行也是为了凑版面</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li>                     
+                                        
             </div>
             <div class="aboutme info-unit right-paragraph">
                 <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
                 <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <ul>
+                    <li>
+                        有较强的学习能力，可以很快学习一个新的框架
+                    </li>
+                    <li>
+                        有很强的意志力，坚持健身已经 4 年，每周至少三次健身房
+                    </li>
+                    <li>
+                        不错的沟通能力，本科时期做过外联工作
+                    </li>
+                </ul>
+            
             </div>
         </div>
     </div>

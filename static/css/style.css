@@ -61,10 +61,10 @@ h1, h2, h3, h4, h5 {
     margin-left: 200px;
 }
 
-.info-list, .progress-list{
+.info-list,.progress-list{
     list-style: none;
     padding-left: 0px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 2;
 }
 
@@ -171,20 +171,20 @@ progress::-moz-progress-value {
 
 .weixin{
     margin-top: 20px;
-    background-color: #e0eaf0;   
+    /*background-color: #e0eaf0;   */
     position: relative;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     padding-bottom: 40px;
     text-align: center;
 }
 
 .weixin img{
-    width: 200px;
+    width: 250px;
 }
 
 .left-label {
     display: inline-block;
-    width: 120px;
+    width: 100px;
 }
 
 .portrait {
