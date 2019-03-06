@@ -165,6 +165,7 @@ progress::-moz-progress-value {
 
 
 .me {
+    margin-top:20px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -206,7 +207,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: 1550px;
+    height: 1450px;
     background-color: white;
 
 }

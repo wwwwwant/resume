@@ -16,9 +16,10 @@
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <img src="static/image/weixin.png">
+                <img src="static/image/white-identification.jpg">
 
-                <h1 id="username" >王特</h1>
+                <h1 id="username">王特</h1>
+                <h2> 大数据后台开发方向</h2>
 
             </div>
             <div class="contact info-unit">
@@ -32,7 +33,7 @@
                 </ul>
             </div>
             <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">编程语言</span></h2>
                 <hr>
                 <ul class="progress-list">
                     <li>
@@ -49,7 +50,7 @@
                     </li>
                     <li>
                         <label class="left-label">Shell</label>
-                        <progress value="50" max="100"></progress>
+                        <progress value="40" max="100"></progress>
                     </li>
                 </ul>
             </div>
@@ -75,7 +76,7 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>英国南安普敦大学 - 数据科学 (MSc)   2018.9 - 2019.9</h3>
+                        <h3>英国南安普敦大学 - 数据科学 (硕士 MSc)   2018.9 - 2019.9</h3>
                     </li>
                     <li>
                         <h3>武汉大学 - 通信工程专业 (本科)   2013.9 - 2017.6</h3>
@@ -89,13 +90,25 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>杭州比智科技有限公司 - 大数据开发实习生 2018.3 - 2018.6</h3>
-                        <p>参与项目：&nbsp; 无人门店实时大屏</p>
-                        <p>主要职责：&nbsp; 实时指标需求的开发，项目维护</p>
-                        <p>项目内容：&nbsp; 从 Kafka 接收实时订单主表和订单子表数据，并从 MySQL 中获取商品类目，店铺商户等维表数据，使用 SparkStreaming 进行计算，并将结果保存到 MySQL。统计指标需求包括每小时各个门店和商户的实时销售额，当日各个商品、类目、店铺等的销售信息等等。
-                        存在的问题及解决：
-                        项目中需要将两个实时流的数据和维度表进行 Join，由于 SparkStreaming 不支持状态保存，解决方案不高效，后来选择使用 Flink 进行消费。
-                        </p>
+                        <h3>杭州比智科技有限公司 <br> 流计算开发实习生 2018.3 - 2018.6</h3>
+                        <ul class="experience-list">
+                            <li>
+                                <b>参与项目：</b>&nbsp; 无人门店实时大屏
+                            </li>
+                            <li>
+                                <b>主要职责：</b>&nbsp; 实时指标需求的开发，项目维护
+                            </li>
+                            <li>
+                                <b>项目内容：</b>&nbsp; 从 Kafka 接收实时订单主表、订单子表、扫脸日志等数据，并从 MySQL 中获取维表数据，使用 SparkStreaming 进行计算，并将结果保存到 MySQL。
+                            </li>
+                            <li>
+                                <b>统计指标：</b> &nbsp; 每小时各个门店和商户的实时销售额，每天各个商品类目、店铺等的销售信息，客流转化率等等。
+                            </li>
+                            <li>
+                                <b>问题及解决：</b>&nbsp; 项目中需要将多个实时流和维表一起联接，涉及到状态的保存，开始的解决方案不高效，在处理大量数据的时候会有瓶颈。后来选择使用 Flink 进行消费，涉及的技术点有自定义 JDBCSource 和 JDBCSink。
+                            </li>
+                        </ul>
+                        
                     </li>
                 </ul class="experience-list">
             </div>
@@ -106,18 +119,23 @@
                 <ul class="experience-list">
                     <li>
                         <h3>问答网站项目课程 2018.1 - 2018.2</h3>
-                        <p>
-                            主要使用 Spring Boot，MyBatis，MySQL，Redis 开发仿知乎的问答网站 完成的功能：用户注册登陆，发布问题，评论中心，站内信，粉丝关注，timeline 推送，异步消息处理等
-                            <br/>
-                        </p>
+                        <ul class="experience-list">
+                            <li>
+                                <b>主要内容：</b> &nbsp;Spring Boot，MyBatis，MySQL，Redis 开发仿知乎的问答网站
+                            </li>
+                            <li>
+                                <b>完成的功能：</b> &nbsp;用户注册登陆，发布问题，评论中心，站内信，粉丝关注，timeline 推送（推拉两种方式对比），Redis 队列进行异步消息处理等
+                            </li>
+                        </ul>
+                         
+                        <br/>
                     </li>
-                    <li>
+                    <!-- <li>
                         <h3>云应用小组作业 2018.10 - 2018.11</h3>
                         <p>
                             3个人的小组，使用 Flask + Angular 合作完成一个简单的云应用，部署在 Google App Engine 上。主要功能为：个人活动行程增删改查，团队活动行程增删改查
                         </p>    
-                    </li>
-                    
+                    </li> -->
                 </ul>
             </div>
             <div class="trophy info-unit">
@@ -132,7 +150,10 @@
                         阅读过 Hadoop RPC 源码，理解 RPC 原理，及高性能设计思想<br>
                         阅读过 Netty 源码，了解其 Reactor 线程轮询事件，处理任务机制
                         </p>
-                            
+                    </li>
+                    <li>
+                        <h3>有数据挖掘经验</h3>
+                        <p>了解一些机器学习算法如线性回归、逻辑回归、决策树等</p>
                     </li> 
                                         
             </div>
